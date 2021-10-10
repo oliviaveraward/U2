@@ -42,6 +42,7 @@ body {
         "footer footer footer footer";
         font-family: 'Quicksand', sans-serif;
         gap: 50px;
+        max-width: 600px;
         width: 100%;
     }
 
