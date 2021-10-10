@@ -143,8 +143,7 @@ main {
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
-    width: 700px
-
+    width: 600px
 }
 
 aside {
@@ -157,6 +156,7 @@ aside {
     height: 100px;
     display: flex;
     position: relative;
+    height: 300px;
     
     
 }
