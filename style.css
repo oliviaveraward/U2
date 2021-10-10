@@ -42,7 +42,6 @@ body {
         "footer footer footer footer";
         font-family: 'Quicksand', sans-serif;
         gap: 50px;
-        max-width: 600px;
         width: 100%;
     }
 
@@ -129,7 +128,8 @@ header {
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: large;
-    max-width: 100%;
+    text-align: center;
+    width: 100%;
 }
 header h1 {
     text-align: center;
