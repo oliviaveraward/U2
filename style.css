@@ -41,7 +41,7 @@ body {
         ".       main     aside  ."
         "footer footer footer footer";
         font-family: 'Quicksand', sans-serif;
-        gap: 50px;
+        gap: 20px;
         width: 100%;
     }
 
@@ -156,6 +156,7 @@ aside {
     border-radius: 10px;
     height: 100px;
     display: flex;
+    position: relative;
     
     
 }
