@@ -137,6 +137,7 @@ header h1 {
     max-width: fit-content;
 }
 
+
 main {
     grid-area: main;
     background-color: #ffffff;
@@ -159,6 +160,10 @@ aside {
     height: 300px;
     
     
+}
+
+aside ul {
+    position: relative;
 }
 
 footer {
