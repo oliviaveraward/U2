@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="style.css">
     <title>Frågor till uppgift 2</title>
+    
 </head>
+
 <body>
+    <div class="container">
     <nav>
-        <label for="menucheckbox" id="menuicon"></label>
+        <p>MENY</p>
+        <label for="menucheckbox" id="menuicon">
         <input type="checkbox" id="menucheckbox">
         
         <ul>
-            <li><a href="#">Startsida</a></li>
-            <li><a href="#">Del 2</a></li>
-            <li><a href="#">Del 3</a></li>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="page2.html">Del 2</a></li>
+            <li><a href="page3.html">Del 3</a></li>
         </ul>
-    </nav>
+    </label>
+    </div>
+</nav>
+
     <header>
         <h1>Frågor till uppgift 2</h1>
     </header>
     <main>
-        <h3>1.Beskriv boxmodellen och ge en kort förklaring av var och en av de CSS-egenskaper som ingår i den.</h3>
+        <h3>1. Beskriv boxmodellen och ge en kort förklaring av var och en av de CSS-egenskaper som ingår i den.</h3>
         <p> Boxmodellen används vid design i CSS. Det är en ”box” som omsluter ett eller flera element i HTML. Dessa element bestås av marginaler, ”padding”, border och sedan resten av innehållet Elementen som ingår i boxmodellen omsluter innehållet som "boxar", därav namnet. Hur stor boxen är etc., kan anpassas i CSS.</p>
         
-        <h3>2.Beskriv också skillnaden mellan värdena content-box och border-box för CSS-egenskapen box-sizing.</h3>
+        <h3>2. Beskriv också skillnaden mellan värdena content-box och border-box för CSS-egenskapen box-sizing.</h3>
         <p><b>content-box:</b> Bredd och höjd inkluderar endast innehållet. Med andra ord är ”border”,”padding” och marginalerna inte en del av bredden eller höjden. Detta betyder att du kommer att behöva anpassa detta i CSS.</p>
-        <p><b>border-box:</b>Padding och border ingår i bredd och höjd. Med border-box blir det enklare eftersom du inte måste räkna ut bredd och höjd då en border-box ändrar ”border”, ”padding” och marginalerna per automatik.</p>
+        <p><b>border-box:</b> Padding och border ingår i bredd och höjd. Med border-box blir det enklare eftersom du inte måste räkna ut bredd och höjd då en border-box ändrar ”border”, ”padding” och marginalerna per automatik.</p>
 
 
     </main>
     <aside>
-        Sidoruta
+        Sidoruta hej vad är det som händer
     </aside>
     <footer>
         Sidfot
