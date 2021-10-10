@@ -129,7 +129,7 @@ header {
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: large;
-    max-width: 600px;
+    max-width: 100%;
 }
 header h1 {
     text-align: center;
